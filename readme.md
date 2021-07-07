@@ -1,1 +1,1 @@
-<img src="https://api.time.com/wp-content/uploads/2014/12/lik-usa-peter-liks-phantom.jpg"/>
+<img src="https://github.com/ksrajath7/vivi-resources/blob/master/screenshots/img.png"/>
