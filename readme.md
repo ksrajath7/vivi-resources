@@ -1,1 +1,1 @@
-![Test Image 4](https://github.com/tograh/testrepository/3DTest.png 1.3k)
+<img src="https://github.com/tograh/testrepository/3DTest.png"/>
