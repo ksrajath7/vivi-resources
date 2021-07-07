@@ -1,0 +1,211 @@
+
+
+.directoryPage{
+    background-color: #F3F3F4;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;  */
+}
+
+.directoryPageAcc{
+    background-color: #D6E5F3;
+    padding: 0 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.directoryPageProducts{
+    background-color: transparent;
+    padding: 0 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.directoryPageInput{
+    margin: 5px 0 5px 0;
+}
+
+.directoryPageProdDiv{
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.featuresRow{
+    margin:50px 0px 35px 0px;
+}
+
+.features-section{
+    padding: 20px 0px;
+    margin: 0;
+    background-color: #f2f8ff;
+}
+
+.features-section h1{
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-weight: 700;
+    color: #1e68ad;
+    
+}
+
+.features-section p{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #312626b9;
+}
+
+.fetProduct{
+    height: 200px;
+}
+
+.webview{display: none;}
+.mobileview{display: block;}
+
+.feature-heading h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.feature-heading p{
+    line-height: 32px;
+    font-size: 18px;
+}
+
+.mar-20{
+    margin: 0 20px;
+}
+
+
+.footerDiv{
+    padding: 0px 20px;
+    color:white;
+    background-color: #070617;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #070617;
+  }
+  .footer .col {
+    width: 190px;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .col ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .col ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+
+
+  
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+
+@media (min-width:800px) {
+    .directoryPageAcc{padding: 0 5% 0 5%;padding-top: 50px;padding-bottom: 50px;}
+    .directoryPageProducts{padding: 0 5% 0 5%;padding-top: 20px;padding-bottom: 20px;}
+    .directoryPageProdDiv{padding: 15px 30px;}
+    .featuresRow{margin:50px -100px 35px -100px;}
+}
+
+
+@media (min-width:992px) {
+    .webview{display: block;}
+    .mobileview{display: none;}
+    .mar-20{margin: 0 60px;}
+}
+
+
+@media (min-width:1000px) {
+    
+    .footerDiv{
+        padding: 0px 100px;
+    }
+    
+    }
+
+    
+@media (min-width:1200px) {
+    
+    .footerDiv{
+        padding: 0px 200px;
+    }
+    
+    }
+
+@media (min-width:1400px) {
+    .directoryPageAcc{padding: 0 10% 0 10%;padding-top: 70px;padding-bottom: 70px;}
+    .directoryPageProducts{padding: 0 10% 0 10%;padding-top: 30px;padding-bottom: 30px;}
+    .directoryPageProdDiv{padding: 30px 50px;}
+}
